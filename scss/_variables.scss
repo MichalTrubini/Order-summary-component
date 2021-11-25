@@ -1,0 +1,27 @@
+//Colors
+
+$color-pale-blue: hsl(225, 100%, 94%);
+$color-bright-blue: hsl(245, 75%, 52%);
+$color-very-plae-blue: hsl(225, 100%, 98%);
+$color-desaturated-blue: hsl(224, 23%, 55%);
+$color-dark-blue: hsl(223, 46%, 23%);
+$color-white: #fff;
+
+//Font-weights
+
+$font-weights: (
+    'normal': 500,
+    'medium': 700,
+    'bold': 900
+);
+
+//UI config
+
+$ui-background-alpha: $color-pale-blue;
+$ui-background-beta: $color-white;
+$ui-background-gamma: $color-bright-blue;
+$ui-color-text-alpha: $color-dark-blue;
+$ui-color-text-beta: $color-white;
+$ui-color-text-gamma: $color-very-plae-blue;
+$ui-color-text-delta: $color-desaturated-blue;
+
