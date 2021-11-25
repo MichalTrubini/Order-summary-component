@@ -18,7 +18,7 @@ img {
 }
 
 body {
-  background-color: #e0e8ff;
+  background: url(../images/pattern-background-mobile.svg) no-repeat, #e0e8ff;
   color: #7280a7;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.6rem;
@@ -79,7 +79,11 @@ body {
 
 .card__cancellation {
   display: block;
-  margin-top: 3em;
+  margin-top: 2.4rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.985rem;
+  color: #717FA6;
 }
 
 .card__payment {
@@ -89,6 +93,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
 .card__music-icon {
@@ -103,24 +108,28 @@ body {
   font-weight: 700;
 }
 
-.customer-plan__price {
-  line-height: 2.4rem;
+.card__price {
+  line-height: 1.9rem;
+  text-align: left;
+  font-size: 1.4rem;
 }
 
-.customer-plan__frequency {
+.card__frequency {
   color: #202f56;
   font-weight: 900;
 }
 
-.payment__link {
+.card__payment-link {
   background-color: #3829e0;
-  border-radius: 1rem;
+  border-radius: 1.1rem;
+  -webkit-box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+          box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   color: #fff;
-  padding: 1rem 2rem;
-}
-
-.attribution {
-  margin-top: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 2rem;
 }
 
 @media (min-width: 600px) {
