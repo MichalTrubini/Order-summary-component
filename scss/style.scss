@@ -28,6 +28,10 @@ body {
     border-radius:2rem;
     margin: auto;
     max-width: 32.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     &__content {
         
@@ -115,17 +119,49 @@ body {
     }
 }
 
-@media (min-width:600px) {
+@media (min-width:500px) {
     body {
-        background: $ui-background-alpha url('images/pattern-background-desktop.svg') no-repeat center top;
+        background: url('../images/pattern-background-desktop.svg') no-repeat center top,$ui-background-alpha;
     }
 
     .card {
-        
         max-width:45rem;
 
         &__content {
-            max-width:35rem;
+            padding:4.5rem 4.8rem 4.8rem;
+        }
+
+        &__heading {
+            font-size:2.8rem;
+            line-height: 3.7rem;
+            margin-bottom: 1.7rem;
+        }
+
+        &__paragraph {
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+        }
+
+        &__customer-plan {
+            margin:2rem 0 3.2rem;
+            padding:2.5rem 2.4rem;
+        }
+
+        &__cancellation {
+            margin-top:3.2rem;
+        }
+
+        &__price {
+            font-size: 1.6rem;
+            line-height: 2.1rem;
+        }
+
+        &__frequency {
+            margin-bottom:0.6rem
+        }
+
+        &__link {
+            font-size: 1.4rem;
         }
     }
 
